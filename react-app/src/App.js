@@ -28,8 +28,7 @@ class App extends Component {
         <Toggle />
         <Clock />
         <User text={comment.text} author={comment.author}/>
-        <Welcome name='Ben'/>
-        <Welcome name='Test'/>
+
       </div>
     );
   }
