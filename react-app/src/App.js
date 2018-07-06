@@ -23,10 +23,7 @@ class App extends Component {
     return (
       <div className="App">
         <Login />
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <h1 className="App-title">Hello World</h1>
-        </header>
+        <h2>Nav</h2>
         <Toggle />
         <Clock />
         <User text={comment.text} author={comment.author}/>

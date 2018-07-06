@@ -36,6 +36,9 @@ class Login extends React.Component{
 
 		return (
 			<div>
+				<h1>
+					{this.state.isLoggedIn ? "logged in":"logged out"}
+				</h1>
 				{button}
 			</div>
 		)
